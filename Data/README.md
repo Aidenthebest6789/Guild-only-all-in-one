@@ -1,0 +1,1 @@
+Stores reaction roles and application configs. Do not commit sensitive data.
