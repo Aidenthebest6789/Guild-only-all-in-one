@@ -3,7 +3,7 @@ const rr = require('../features/reactionRoles');
 
 module.exports = {
   data: new SlashCommandBuilder()
-    .setName('rr-setup')
+    .setName('reactionroles-setup')
     .setDescription('Create a reaction-role message and map emojis to roles.')
     .addChannelOption(opt => opt.setName('channel').setDescription('Channel to send the message').setRequired(true))
     .addStringOption(opt => opt.setName('content').setDescription('Message content').setRequired(true)),
