@@ -1,0 +1,25 @@
+{
+  "name": "all-in-one-full-bot-spotify",
+  "version": "1.0.0",
+  "description": "All-in-one Discord bot scaffold (Spotify previews only). Reaction roles, verification, applications, giveaways, stats logger, and more. Ready for Railway & GitHub.",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "register": "node src/registerCommands.js",
+    "lint": "echo \"No linter configured\""
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "discord.js": "^14.11.0",
+    "@discordjs/voice": "^0.16.0",
+    "spotify-web-api-node": "^5.0.2",
+    "dotenv": "^16.0.3",
+    "better-sqlite3": "^8.0.1",
+    "ms": "^2.1.3",
+    "node-fetch": "^3.3.2",
+    "discord-giveaways": "^5.0.0",
+    "uuid": "^9.0.0"
+  }
+}
